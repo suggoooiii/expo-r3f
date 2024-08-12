@@ -1,6 +1,6 @@
-module.exports = {
-    resolver: {
-      sourceExts: ['js', 'jsx', 'json', 'ts', 'tsx', 'cjs', 'mjs'],
-      assetExts: ['glb', 'gltf', 'png', 'jpg'],
-    },
-  }
+// metro.config.js
+const { getDefaultConfig } = require("expo/metro-config");
+
+const config = getDefaultConfig(__dirname);
+config.resolver.assetExts.push("glb");
+module.exports = config;
