@@ -2,20 +2,26 @@
   "name": "My Codespace",
   "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
   "customizations": {
-    "extensions": [
-      "ms-vscode.cpptools",
-      "dbaeumer.vscode-eslint",
-      "esbenp.prettier-vscode",
-      "phind.phind",
-      "github.vscode-github-actions",
-      "GitHub.copilot",
-      "GitHub.copilot-chat",
-      "VisualStudioExptTeam.vscodeintellicode",
-      "VisualStudioExptTeam.intellicode-api-usage-examples",
-      "pflannery.vscode-versionlens",
-      "ChakrounAnas.turbo-console-log",
-      "MeshIntelligentTechnologiesInc.pieces-vscode"
-    ],
-  "postCreateCommand": "npm install"
-}
+    "extensions": [],
+    "postCreateCommands": [],
+    "postCreateCommand": "npm install",
+    "vscode": {
+      "extensions": [
+        "slevesque.shader",
+        "kuba-p.glsl-lsp",
+        "ms-vscode.cpptools",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "phind.phind",
+        "github.vscode-github-actions",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "pflannery.vscode-versionlens",
+        "ChakrounAnas.turbo-console-log",
+        "MeshIntelligentTechnologiesInc.pieces-vscode"
+      ]
+    }
+  }
 }
